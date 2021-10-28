@@ -4,7 +4,7 @@ from django.urls import path
 from . import views
 
 app_name = 'superheroes'
-URLPattern = [
+urlpatterns = [
     path('index/',views.index, name='index')
 ]
 
